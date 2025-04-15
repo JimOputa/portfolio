@@ -29,7 +29,7 @@ function App() {
               About Me
             </h4>
             <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-[20px] lg:items-center">
-              <div className="p-[20px] hover:outline-[#7456FF] hover:outline-2 rounded-[10px]">
+              <div className="p-[20px] outline-[#7456FF] outline-2 rounded-[10px] h-fit">
                 <img
                   src="./images/DP4.webp"
                   alt="Profile Picture"
