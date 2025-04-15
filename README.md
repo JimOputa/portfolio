@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# **Jim Oputa - Front-End Developer Portfolio**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website, where I showcase my skills, projects, and experience as a front-end developer. This website is built using modern web technologies, including React, Vite, and Tailwind CSS.
 
-## Available Scripts
+## **Table of Contents**
 
-In the project directory, you can run:
+1. [About Me](#about-me)
+2. [Technologies Used](#technologies-used)
+3. [Features](#features)
+4. [Installation](#installation)
 
-### `npm start`
+## **About Me**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Hello! I'm **Jim Oputa**, a passionate front-end developer with a love for creating responsive and engaging user interfaces. I specialize in crafting web experiences that are both visually appealing and user-friendly. You can find more about me, my skills, and my journey through my portfolio.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **Technologies Used**
 
-### `npm test`
+This portfolio website is built using the following technologies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: A JavaScript library for building user interfaces, primarily for single-page applications.
+- **Vite**: A fast build tool that provides an excellent development experience for modern web applications.
+- **Tailwind CSS**: A utility-first CSS framework that allows for rapid styling without writing custom CSS.
+- **GitHub Pages**: For hosting the website.
 
-### `npm run build`
+## **Features**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Personal Introduction**: A brief introduction to who I am and what I do as a front-end developer.
+- **Project Showcase**: A collection of personal projects with descriptions and links.
+- **Skills Section**: An overview of my technical skills and expertise.
+- **Responsive Design**: The portfolio is fully responsive and optimized for both desktop and mobile views.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **Installation**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run this project locally, clone the repository, install dependencies, and start the development server. Here’s how:
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/JimOputa/portfolio.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Navigate to the project directory:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+cd portfolio
+```
 
-## Learn More
+3. Install dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Run the development server:
 
-### Code Splitting
+```bash
+npm run dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. Open the application in your browser at `http://localhost:5173/portfolio.`

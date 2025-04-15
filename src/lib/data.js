@@ -1,0 +1,42 @@
+export const projects = [
+  {
+    image: "./images/Cover4.webp",
+    title: "Morent",
+    description: "Landing page for a car rental company.",
+    github: "https://github.com/JimOputa/car-rental",
+    liveDemo: "https://car-rental-pearl-mu.vercel.app/",
+    stack: ["Next.js", "React", "Tailwind"],
+  },
+  {
+    image: "./images/Cover2.webp",
+    title: "Nautix",
+    description: "Ecommerce multi-page store.",
+    github: "https://github.com/JimOputa/ecommerce-store",
+    liveDemo: "https://ecommerce-store-gules-rho.vercel.app/",
+    stack: ["Next.js", "React", "CSS"],
+  },
+  {
+    image: "./images/Cover3.webp",
+    title: "Arist",
+    description: "Carousel hero section for a marketing company.",
+    github: "https://github.com/JimOputa/arist",
+    liveDemo: "https://jimoputa.github.io/arist/",
+    stack: ["React", "SCSS"],
+  },
+  {
+    image: "./images/Cover5.webp",
+    title: "Boutique",
+    description: "Landing page for a fashion store.",
+    github: "https://github.com/JimOputa/JimChuma.github.io/tree/main/projects/fashion",
+    liveDemo: "https://jimoputa.github.io/JimChuma.github.io/projects/fashion/fashion.html",
+    stack: ["JavaScript", "Bootstrap"],
+  },
+  {
+    image: "./images/Cover6.webp",
+    title: "Landscape",
+    description: "Landing page for a real estate company.",
+    github: "https://github.com/JimOputa/JimChuma.github.io/tree/main/projects/real-estate",
+    liveDemo: "https://jimoputa.github.io/JimChuma.github.io/projects/real-estate/real-estate.html",
+    stack: ["JavaScript", "Bootstrap"],
+  },
+];
