@@ -14,7 +14,7 @@ function App() {
             Jim Oputa
           </h2>
           <p className="sm:text-[18px] text-[16px] text-[#7456FF]">
-            Front End Developer
+            Full Stack Developer
           </p>
           <div className="flex justify-center gap-2 mt-2 sm:text-[20px] text-[18px]">
             <a href="https://www.linkedin.com/in/jim-oputa" target="_blank">
