@@ -20,7 +20,7 @@ export const projects = [
     title: "Arist",
     description: "Carousel hero section for a marketing company.",
     github: "https://github.com/JimOputa/arist",
-    liveDemo: "https://jimoputa.github.io/arist/",
+    liveDemo: "https://arist-carousel.netlify.app/",
     stack: ["React", "SCSS"],
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     title: "Boutique",
     description: "Landing page for a fashion store.",
     github: "https://github.com/JimOputa/JimChuma.github.io/tree/main/projects/fashion",
-    liveDemo: "https://jimoputa.github.io/JimChuma.github.io/projects/fashion/fashion.html",
+    liveDemo: "https://boutique-fashion-store.netlify.app/",
     stack: ["JavaScript", "Bootstrap"],
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     title: "Landscape",
     description: "Landing page for a real estate company.",
     github: "https://github.com/JimOputa/JimChuma.github.io/tree/main/projects/real-estate",
-    liveDemo: "https://jimoputa.github.io/JimChuma.github.io/projects/real-estate/real-estate.html",
+    liveDemo: "https://landscape-real-estate-management.netlify.app/",
     stack: ["JavaScript", "Bootstrap"],
   },
 ];

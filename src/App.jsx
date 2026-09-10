@@ -26,56 +26,6 @@ function App() {
           </div>
           <div className="py-10">
             <h4 className="sm:text-[28px] text-[24px] font-medium lg:mb-5 mb-8">
-              About Me
-            </h4>
-            <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-[20px] lg:items-center">
-              <div className="p-[20px] outline-[#7456FF] outline-2 rounded-[10px] h-fit">
-                <img
-                  src="./images/DP4.webp"
-                  alt="Profile Picture"
-                  className="rounded-[10px]"
-                />
-              </div>
-              <div className="p-[20px] flex flex-col gap-y-[20px] text-start lg:col-span-2">
-                <div>
-                  <h6 className="font-medium sm:text-[18px]/[28px] text-[16px]/[24px] sm:mb-0 mb-[2px]">
-                    Professional Summary
-                  </h6>
-                  <p className="sm:text-[14px]/[21px] text-[12px]/[18px] text-[#999999]">
-                    Highly skilled and enthusiastic Front-End Developer with
-                    expertise in creating visually appealing, responsive, and
-                    user-friendly websites. Proficient in HTML, CSS, JavaScript,
-                    React, and other modern web technologies. Adept at
-                    collaborating with cross-functional teams to deliver
-                    high-quality products, while ensuring the best user
-                    experience and performance. Experienced in leading front-end
-                    teams, integrating APIs, and building applications from
-                    scratch. Passionate about continuous learning and applying
-                    new technologies to solve complex problems.
-                  </p>
-                </div>
-                <div>
-                  <h6 className="font-medium sm:text-[18px]/[28px] text-[16px]/[24px] sm:mb-0 mb-[2px]">
-                    Skills
-                  </h6>
-                  <p className="sm:text-[14px]/[21px] text-[12px]/[18px] text-[#999999]">
-                    HTML, CSS, JavaScript, React, Sass, Tailwind, Bootstrap,
-                    TypeScript, NextJs, Git/GitHub.{" "}
-                  </p>
-                </div>
-                <div>
-                  <h6 className="font-medium sm:text-[18px]/[28px] text-[16px]/[24px] sm:mb-0 mb-[2px]">
-                    Education
-                  </h6>
-                  <p className="sm:text-[14px]/[21px] text-[12px]/[18px] text-[#999999]">
-                    BSc. Computer Engineering, University of Benin, 2021.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="py-10">
-            <h4 className="sm:text-[28px] text-[24px] font-medium lg:mb-5 mb-8">
               Recent Projects
             </h4>
             <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-[20px]">
