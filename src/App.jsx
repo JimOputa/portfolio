@@ -1,10 +1,12 @@
 import Project from "./components/Project";
 import { projects } from "./lib/data";
-import { FaLinkedin, FaGithub } from "react-icons/fa6";
+import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
 
 function App() {
   const currentYear = new Date().getFullYear();
+  const whatsappNumber = 2349036885113;
+  const whatsapplink = `https://wa.me/${whatsappNumber}`;
 
   return (
     <div className="text-center bg-gradient-to-r from-[#0F0F0F] to-[#060021] text-white min-h-screen flex justify-center">
@@ -41,9 +43,15 @@ function App() {
             <p className="sm:text-[14px]/[21px] text-[12px]/[18px] text-[rgb(153,153,153)] lg:mb-5 mb-8">
               Let's work on a project together! Feel free to get in touch.
             </p>
-            <div className="flex items-center justify-center">
+            <div className="flex flex-wrap items-center justify-center gap-5">
+              <a href={whatsapplink} target="_blank">
+                <button className="w-[183px] flex items-center justify-center gap-x-[10px] bg-white text-[#0F0F0F] px-[20px] py-[10px] rounded-[10px] cursor-pointer">
+                  <FaWhatsapp />
+                  <span>Send Message</span>
+                </button>
+              </a>
               <a href="mailto:jimsartusa@gmail.com" target="_blank">
-                <button className="flex items-center justify-center gap-x-[10px] bg-white text-[#0F0F0F] px-[20px] py-[10px] rounded-[10px] cursor-pointer">
+                <button className="w-[183px] flex items-center justify-center gap-x-[10px] bg-white text-[#0F0F0F] px-[20px] py-[10px] rounded-[10px] cursor-pointer">
                   <HiOutlineMail />
                   <span>Send Email</span>
                 </button>
